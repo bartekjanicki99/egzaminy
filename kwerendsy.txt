@@ -1,0 +1,4 @@
+1. INSERT INTO zgloszenia VALUES ('',1,4,'Warszawa,Staszica 35/5',1,CURRENT_TIME());
+2. SELECT adres,dyspozytorzy_id FROM zgloszenia WHERE ratownicy_id=3;
+3. create user anna identified by "Anna4!";
+4. grant insert,update,select ON ratownictwo.zgloszenia TO anna;

@@ -1,0 +1,55 @@
+body,html {
+	width:100%;
+	height:100%;
+    margin:0px;
+	padding:0px;
+	font-family:"Arial";
+}
+header {
+	background-color:#333333;
+	width:100%;
+	height:10%;
+	text-align:center;
+	color:#ffffff;
+	float:left;
+	
+
+}
+h2 {
+		color:white;
+}
+
+
+input {
+	width:250px;
+	background-color:red;
+	color:white;
+}
+
+	
+}
+button:hover {
+	background-color:#333333;
+}
+main {
+
+	background-color:#f2f2f2;
+	width:100%;
+	height:80%;
+	float:left;
+	clear:both;
+	text-align:center;
+	
+}
+p {
+	color:white;
+}
+footer {
+	background-color:#2d2d2d;
+	width:100%;
+	height:10%;
+	float:left;
+	text-align:center;
+	position:sticky;
+	color:#cccccc;
+}
