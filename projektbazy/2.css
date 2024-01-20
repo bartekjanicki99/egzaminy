@@ -1,0 +1,115 @@
+body,html {
+	width:100%;
+	height:100%;
+    margin:0px;
+	padding:0px;
+	font-family:"Arial";
+}
+header {
+	background-color:#333333;
+	width:100%;
+	height:10%;
+	text-align:center;
+	color:#ffffff;
+	float:left;
+	
+
+}
+h2 {
+		color:white;
+}
+nav {
+	float:left;
+	width:20%;
+	height:150%;
+	background-color:green;
+}
+.tabelka {
+	background-color:cyan;
+}
+.tabelka th {
+	background-color:red;
+}
+input {
+	background-color:red;
+	color:white;
+	
+}
+.przycisk {
+	background-color:green;
+	
+}
+
+	
+main {
+
+	background-color:yellow;
+	width:80%;
+	height:150%;
+	float:left;
+	text-align:center;
+	overflow:scroll;
+	
+	
+}
+p {
+	color:white;
+}
+
+.wstawianie {
+color:white;
+	margin:20px;
+    border:solid ;
+	background-color:cyan; 
+	color:#333333;
+	text-align:center;
+	width:50%;
+	
+}
+ .wstawianie form {
+        display: inline-block;
+        text-align: left;
+    }
+
+.usuwanie {
+color:white;
+	margin:20px;
+    border:solid ;
+	background-color:cyan; 
+	color:#333333;
+	text-align:center;
+	width:50%;
+	
+}
+ .usuwanie form {
+        display: inline-block;
+        text-align: left;
+    }
+.edytowanie {
+color:white;
+	margin:20px;
+    border:solid ;
+	background-color:cyan; 
+	color:#333333;
+	text-align:center;
+	width:50%;
+	
+}
+ .edytowanie form {
+        display: inline-block;
+        text-align: left;
+    }
+	.wybieranie {
+color:white;
+	margin:20px;
+    border:solid ;
+	background-color:cyan; 
+	color:#333333;
+	text-align:center;
+	width:50%;
+	
+}
+ .wybieranie form {
+        display: inline-block;
+        text-align: left;
+    }

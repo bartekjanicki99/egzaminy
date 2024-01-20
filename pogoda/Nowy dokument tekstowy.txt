@@ -1,0 +1,4 @@
+1. select * from pogoda where miasta_id = 1 order by data_prognozy asc;
+2. select id,data_prognozy from pogoda where opady>30;
+3. select data_prognozy,temperatura_noc,nazwa from pogoda inner join miasta on pogoda.miasta_id=miasta.id where temperatura_noc < 6;
+4. alter table miasta add wojewodztwo text;

@@ -1,0 +1,8 @@
+1. SELECT `id`,`name` from flowers; 
+2. SELECT name,price,MAX(percent_off) from flowers inner join discounts on flowers.id=discounts.flower_id where date_start<"2024-01-11 00:00:00" 
+AND date_end>"2024-01-11 23:59:59" group by name; 
+2.2 
+ewentualnie SELECT name,price,MAX(percent_off) from flowers inner join discounts on flowers.id=discounts.flower_id where date_start<CURRENT_TIMESTAMP() and date_end>CURRENT_TIMESTAMP() group by name; 
+
+3. INSERT INTO orders VALUES('',1,5,'ul. Ezdaminowa 420','+48 123123123');
+4. UPDATE discounts set percent_off=15,date_start='2024-01-15 00:00:00',date_end='2024-01-17 23:59:59' WHERE flower_id=2; 

@@ -1,0 +1,4 @@
+1. SELECT imie,nazwisko from autorzy order BY nazwisko asc;
+2. INSERT INTO czytelnicy VALUES('','Ewa','Kowalska',145321);
+3. SELECT tytul from ksiazki where id_kategoria=2;
+4. SELECT tytul from ksiazki inner join wypozyczenia on ksiazki.id=wypozyczenia.id_ksiazka WHERE id_czytelnik=2;

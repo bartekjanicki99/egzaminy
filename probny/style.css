@@ -1,0 +1,54 @@
+body {
+    font-family:Arial;
+}
+header {
+    height:60px;
+    background-color:rgba(255,62,242);
+    float:left;
+    width:100%;
+    text-align:center;
+    
+    
+}
+img {
+float:left;
+}
+h1 {   
+    color:white;
+    text-align:center;
+}
+h2,h3 {
+    margin-left:10px;
+}
+aside {
+    height:600px;
+    width:25%;
+    background-color:rgba(255,184,236);
+    float:left;
+}
+main {
+    height:600px;
+    width:75%;
+    background-color: rgba(126,170,205);
+    float:left;
+}
+table {
+    width:100%;
+    border-collapse:collapse;
+}
+th,td {
+    padding:5px;
+}
+th:hover,td:hover {
+    background-color:white;
+}
+form {
+    margin:50px;
+}
+footer {
+    height:69px;
+    padding:6px;
+    background-color:rgba(255,62,242);
+    text-align:right;
+    clear:both;
+}
